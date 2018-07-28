@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const number = prompt("Masukan sebuah angka:");
+    if (isNaN(number)) {
+        console.log(`${number} bukanlah angka`);
+    } else {
+        if (number > 0) {
+            console.log(`${number} adalah positif`);
+        } else if (number < 0) {
+            console.log(`${number} adalah negatif`);
+        } else if (number == 0) {
+            console.log(`${number} adalah nol`);
+        }
+    }
+    </script>
+</body>
+</html>
